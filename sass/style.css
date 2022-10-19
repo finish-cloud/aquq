@@ -127,14 +127,14 @@ header
 }
 
 .header-navi ul,
-.footeer-navi ul {
+.footer-navi ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0 295px;
 }
 .header-navi li,
-.footeer-navi li {
+.footer-navi li {
   width: 100%;
   text-align: center;
   margin-bottom: 24px;
@@ -145,7 +145,7 @@ header
   padding: 12px 0;
 }
 .header-navi li + li,
-.footeer-navi li + li {
+.footer-navi li + li {
   border-left: 0;
   border-right: 1px solid #CCCCCC;
 }
