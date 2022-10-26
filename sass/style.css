@@ -7,6 +7,7 @@ html {
 body {
   width: 1600px;
   color: #333333;
+  margin: 0 auto;
 }
 
 a {
@@ -126,15 +127,13 @@ header
   width: 1300px;
 }
 
-.header-navi ul,
-.footer-navi ul {
+.header-navi ul, .footer-navi ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0 295px;
 }
-.header-navi li,
-.footer-navi li {
+.header-navi li, .footer-navi li {
   width: 100%;
   text-align: center;
   margin-bottom: 24px;
@@ -144,8 +143,7 @@ header
   font-weight: bold;
   padding: 12px 0;
 }
-.header-navi li + li,
-.footer-navi li + li {
+.header-navi li + li, .footer-navi li + li {
   border-left: 0;
   border-right: 1px solid #CCCCCC;
 }
